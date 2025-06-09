@@ -226,6 +226,9 @@ img{
 #pictureModal.modal-fullscreen img {
     max-width: 90%;
     max-height: 80%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover; /* Giữ tỷ lệ mà không bị biến dạng */
+    object-position: top;
 }
 #feedbackModal .modal-close,
 #pictureModal .modal-close {
@@ -329,6 +332,11 @@ img{
 /* Review */
 .feedback{
     position: relative;
+}
+.feedback img{
+    aspect-ratio: 3 / 4;
+    object-fit: cover; /* Giữ tỷ lệ mà không bị biến dạng */
+    object-position: top;
 }
 /* Footer */
 footer .logo a{
