@@ -338,6 +338,9 @@ img{
     object-fit: cover; /* Giữ tỷ lệ mà không bị biến dạng */
     object-position: top;
 }
+.feedback .text{
+    text-align: justify;
+}
 /* Footer */
 footer .logo a{
     width: 40px;
